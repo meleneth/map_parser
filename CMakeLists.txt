@@ -13,7 +13,7 @@ if(NOT EXISTS "${CPM_DOWNLOAD_LOCATION}")
   file(DOWNLOAD
     "https://github.com/cpm-cmake/CPM.cmake/releases/download/v${CPM_DOWNLOAD_VERSION}/CPM.cmake"
     "${CPM_DOWNLOAD_LOCATION}"
-    EXPECTED_HASH SHA256=78ba32abdf798bc616bab7c73aac32a17bbd7b06ad9e26a6add69de8f3ae47991a
+    EXPECTED_HASH SHA256=78ba32abdf798bc616bab7c73aac32a17bbd7b06ad9e26a6add69de8f3ae4791
   )
 endif()
 
